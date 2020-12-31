@@ -8,6 +8,10 @@ import androidx.fragment.app.FragmentTransaction;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import com.example.tourguide.StrictMode.strictmodeclass;
+import com.example.tourguide.fragement.fragment_home;
+import com.example.tourguide.fragement.fragment_hotel;
+import com.example.tourguide.fragement.fragment_places;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {

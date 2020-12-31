@@ -11,6 +11,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 
 import com.example.tourguide.R;
+import com.example.tourguide.globalURL.URL;
+import com.example.tourguide.model.hotelModel;
 
 import java.util.ArrayList;
 import java.util.List;
