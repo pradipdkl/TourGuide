@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 
 import com.example.tourguide.API.HotelAPI;
+import com.example.tourguide.Adapter.Adapter_Hotel;
 import com.example.tourguide.R;
 import com.example.tourguide.globalURL.URL;
 import com.example.tourguide.model.hotelModel;
