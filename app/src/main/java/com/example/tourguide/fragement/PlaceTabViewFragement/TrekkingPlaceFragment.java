@@ -9,11 +9,8 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.cityguide.API.placesAPI;
-import com.example.cityguide.Adapter.places.AdapterTrekkingPlace;
-import com.example.cityguide.R;
-import com.example.cityguide.globalURL.URL;
-import com.example.cityguide.model.places.trekkingplaceModel;
+
+import com.example.tourguide.R;
 
 import java.io.IOException;
 import java.util.List;

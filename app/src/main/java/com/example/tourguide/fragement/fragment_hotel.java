@@ -9,11 +9,8 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.cityguide.API.HotelAPI;
-import com.example.cityguide.Adapter.Adapter_Hotel;
-import com.example.cityguide.R;
-import com.example.cityguide.globalURL.URL;
-import com.example.cityguide.model.hotelModel;
+
+import com.example.tourguide.R;
 
 import java.util.ArrayList;
 import java.util.List;

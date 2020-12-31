@@ -17,10 +17,10 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
-import com.example.cityguide.MapsActivity;
-import com.example.cityguide.R;
-import com.example.cityguide.fragement.PlaceTabViewFragement.TrekkingPlaceFragment;
-import com.example.cityguide.fragement.PlaceTabViewFragement.famousPlaceFragment;
+
+import com.example.tourguide.R;
+import com.example.tourguide.fragement.PlaceTabViewFragement.TrekkingPlaceFragment;
+import com.example.tourguide.fragement.PlaceTabViewFragement.famousPlaceFragment;
 import com.google.android.material.tabs.TabLayout;
 
 import java.util.ArrayList;
