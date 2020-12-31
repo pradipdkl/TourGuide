@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 
+import com.example.tourguide.API.HotelAPI;
 import com.example.tourguide.R;
 import com.example.tourguide.globalURL.URL;
 import com.example.tourguide.model.hotelModel;
