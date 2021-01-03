@@ -9,11 +9,12 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.cityguide.API.placesAPI;
-import com.example.cityguide.Adapter.places.AdapterFamousPlaces;
-import com.example.cityguide.R;
-import com.example.cityguide.globalURL.URL;
-import com.example.cityguide.model.places.famousPlaceModel;
+
+import com.example.tourguide.API.placesAPI;
+import com.example.tourguide.Adapter.places.AdapterFamousPlaces;
+import com.example.tourguide.R;
+import com.example.tourguide.globalURL.URL;
+import com.example.tourguide.model.places.famousPlaceModel;
 
 import java.io.IOException;
 import java.util.List;

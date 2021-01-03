@@ -10,7 +10,11 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 
+import com.example.tourguide.API.placesAPI;
+import com.example.tourguide.Adapter.places.AdapterTrekkingPlace;
 import com.example.tourguide.R;
+import com.example.tourguide.globalURL.URL;
+import com.example.tourguide.model.places.trekkingplaceModel;
 
 import java.io.IOException;
 import java.util.List;

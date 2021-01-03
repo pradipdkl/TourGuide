@@ -51,7 +51,7 @@ public class OnBoardingActivity extends AppCompatActivity {
     }
 
     public void skip(View view){
-        Intent i = new Intent(OnBoardingActivity.this, MainActivity.class);
+        Intent i = new Intent(OnBoardingActivity.this, RegisterActivity.class);
         startActivity(i);
         finish();
     }
@@ -112,8 +112,16 @@ public class OnBoardingActivity extends AppCompatActivity {
                 AnimationSet skipAnimation = new AnimationSet(false);
                 skipAnimation.addAnimation(fadeOut);
                 skip_btn.setAnimation(skipAnimation);
-
                 skip_btn.setVisibility(View.INVISIBLE);
+
+                letsGetStarted.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent i = new Intent(OnBoardingActivity.this, RegisterActivity.class);
+                        startActivity(i);
+                        finish();
+                    }
+                });
             }
 
 

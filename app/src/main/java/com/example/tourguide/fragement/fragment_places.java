@@ -18,6 +18,7 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 
+import com.example.tourguide.MapsActivity;
 import com.example.tourguide.R;
 import com.example.tourguide.fragement.PlaceTabViewFragement.TrekkingPlaceFragment;
 import com.example.tourguide.fragement.PlaceTabViewFragement.famousPlaceFragment;
