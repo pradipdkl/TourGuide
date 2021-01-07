@@ -52,7 +52,7 @@ public class fragment_hotel extends Fragment {
             hotelList = hotelResponse.body();
             hotelAdapter = new Adapter_Hotel(getContext(), hotelList);
             recyclerViewHotel.setAdapter(hotelAdapter);
-            recyclerViewHotel.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL, false));
+            recyclerViewHotel.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
 
         } catch (Exception e) {
             e.printStackTrace();

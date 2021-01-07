@@ -61,21 +61,20 @@ public class RegisterActivity extends AppCompatActivity {
         btnnext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 if (!verificationInProgess) {
                     if (!phoneNumber.getText().toString().isEmpty() && phoneNumber.getText().length() == 10) {
                         String phoneNum = "+" + codePicker.getSelectedCountryCode() + phoneNumber.getText().toString();
-
-                        progressBar.setVisibility(View.VISIBLE);
-                        state.setText("Sending OTP");
-                        state.setVisibility(View.VISIBLE);
-                        requestOTP(phoneNum);
+                            progressBar.setVisibility(View.VISIBLE);
+                            state.setText("Sending OTP");
+                            state.setVisibility(View.VISIBLE);
+                            requestOTP(phoneNum);
 
                     } else {
                         phoneNumber.setError("Phone Number is not Valid");
                     }
 
                 } else {
-
                     String userOTP = CodeEnter.getText().toString();
                     if (!userOTP.isEmpty() && userOTP.length() == 6) {
 
@@ -91,21 +90,21 @@ public class RegisterActivity extends AppCompatActivity {
 
             }
         });
-
-
     }
 
     @Override
     protected void onStart() {
         super.onStart();
-        if (fauth.getCurrentUser() != null) {
+        if(fauth.getCurrentUser()!=null)
+        {
             progressBar.setVisibility(View.VISIBLE);
             state.setText("Checking..");
             state.setVisibility(View.VISIBLE);
+
+            phoneNumber.setVisibility(View.INVISIBLE);
+            btnnext.setVisibility(View.INVISIBLE);
             chekUserProfile();
-
         }
-
 
     }
 

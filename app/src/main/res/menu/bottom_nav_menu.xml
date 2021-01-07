@@ -12,7 +12,7 @@
     <item
         android:id="@+id/action_hotel"
         android:enabled="true"
-        android:icon="@drawable/hotel"
+        android:icon="@drawable/ic_hotel"
         android:title="Hotel"/>
 
 
