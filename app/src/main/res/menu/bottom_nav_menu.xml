@@ -22,4 +22,10 @@
         android:icon="@drawable/ic_baseline_place_24"
         android:title="Places"/>
 
+
+    <item
+        android:id="@+id/action_news"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_news"
+        android:title="News"/>
 </menu>
