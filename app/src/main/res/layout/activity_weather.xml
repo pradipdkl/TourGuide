@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bgweather"
+    android:background="@drawable/weatherbg"
     android:orientation="vertical"
     tools:context=".WeatherActivity">
 
@@ -14,6 +14,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="100dp"
         android:gravity="center"
+        android:textColor="#000000"
         android:hint="Enter Place Name" />
 
     <Button
@@ -22,13 +23,15 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="10dp"
-        android:text="Search" />
+        android:text="Search"
+        android:backgroundTint="#6A6A6A"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
-        android:text="Weather Details" />
+        android:text="Weather Details"
+        android:textColor="#000000"/>
 
     <TextView
         android:id="@+id/result"
@@ -37,6 +40,7 @@
         android:layout_marginLeft="25dp"
         android:layout_marginTop="10dp"
         android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:textColor="#000000"/>
 
 </LinearLayout>

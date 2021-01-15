@@ -15,4 +15,7 @@
     <color name="yellowLight">#ffe140</color>
     <color name="gray">#808080</color>
     <color name="lightGreen">#9dea15</color>
+    <color name="semiTransparentColor">#20ffffff</color>
+
+    <color name="c1">#65c69d</color>
 </resources>

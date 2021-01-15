@@ -75,7 +75,7 @@
       android:id="@+id/saveBtn"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:background="#2196F3"
+      android:backgroundTint="#1C1313"
       android:text="Save"
       android:textColor="#F9FAF8"
       android:textSize="17sp"
