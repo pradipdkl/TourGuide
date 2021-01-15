@@ -73,9 +73,9 @@ public class fragment_home extends Fragment implements LocationListener {
     ImageView imageicon, img_logut;
 
     CarouselView carouselView;
-    int[] sampleImages = {R.drawable.ic_email_black_24dp,
-            R.drawable.common_google_signin_btn_icon_dark,
-            R.drawable.add_missing_place};
+    int[] sampleImages = {R.drawable.slide1,
+            R.drawable.slide2,
+            R.drawable.slide3};
 
 
     public class Weather extends AsyncTask<String, Void, String> {// first String means Url is in string, Void mean nothing, Third String means return type will be in string

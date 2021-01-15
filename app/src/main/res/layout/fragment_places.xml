@@ -63,7 +63,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
         android:layout_marginTop="550dp"
-        android:background="@drawable/tab_bg"
+        android:textColor="@color/white"
+        android:backgroundTint="#3C3A3A"
         android:text="Click Here To Search Places"
         />
 

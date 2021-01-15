@@ -3,7 +3,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/bg"
+    android:background="@color/semiTransparentColor"
     android:layout_margin="10dp">
 
     <RelativeLayout
@@ -13,10 +13,9 @@
 
         <ImageView
             android:id="@+id/guideimg"
-            android:layout_width="150dp"
+            android:layout_width="match_parent"
             android:layout_height="154dp"
             android:scaleType="fitXY"
-            android:layout_marginLeft="100dp"
             android:src="@drawable/ic_hotel" />
 
         <TextView
@@ -24,10 +23,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/guideimg"
-            android:layout_marginLeft="70dp"
+
             android:layout_marginTop="8dp"
             android:text="Name"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             />
 
         <TextView
@@ -35,10 +34,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/guideimg"
-            android:layout_marginLeft="70dp"
+
             android:layout_marginTop="28dp"
             android:text="Address"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             />
         <LinearLayout
             android:layout_width="wrap_content"
@@ -50,12 +49,12 @@
                 android:id="@+id/guidecontact"
                 android:layout_width="144dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="70dp"
+
                 android:layout_marginTop="47dp"
                 android:text="Phone Number"
                 android:autoLink="phone"
                 android:clickable="true"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 />
 
             <ImageView
@@ -71,23 +70,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/guideimg"
-            android:layout_marginLeft="70dp"
+
             android:layout_marginTop="62dp"
             android:text="Language"
             android:id="@+id/guidelanguage"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/guideimg"
-            android:layout_marginLeft="70dp"
+
             android:layout_marginTop="80dp"
             android:justificationMode="inter_word"
             android:text="Description"
             android:id="@+id/guidedescription"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             />
 
     </RelativeLayout>
